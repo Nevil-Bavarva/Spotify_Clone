@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital@1&family=Roboto&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 85px;
+    background-color:black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 68px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.container {
+    min-height: 67.5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 85vw;
+    border-radius: 14px;
+    background-image: url('statics/background.png');
+}
+
+.bottom {
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#myProgessBar {
+    width: 80vw;   
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons i {
+    margin: 5px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 38px;
+}
+
+.songItem img {
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 38px;
+}
+
+.timeStamp {
+    margin: 23px;
+}
+
