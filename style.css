@@ -40,7 +40,7 @@ nav ul li {
 }
 
 .container {
-    min-height: 67.5vh;
+    min-height: 60.5vh;
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -48,8 +48,12 @@ nav ul li {
     margin: 23px auto;
     width: 85vw;
     border-radius: 14px;
-    background-image: url('statics/background.png');
+    background-image: url('statics/bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
+
 
 .bottom {
     position: sticky;
@@ -61,10 +65,12 @@ nav ul li {
     align-items: center;
     color: white;
     flex-direction: column;
+    overflow: hidden;
 }
 
 #myProgessBar {
-    width: 80vw;   
+    width: 80vw;  
+    cursor: pointer; 
 }
 
 .icons {
@@ -75,12 +81,17 @@ nav ul li {
     margin: 5px;
 }
 
+
+h1 {
+    margin: px 0 12px 25px;
+}
+
 .songItem {
     height: 50px;
     display: flex;
     background-color: white;
     color: black;
-    margin: 12px 0;
+    margin: 12px 0 12px 25px;
     justify-content: space-between;
     align-items: center;
     border-radius: 38px;
@@ -96,3 +107,18 @@ nav ul li {
     margin: 23px;
 }
 
+.songInfo {
+    position: absolute;
+    left: 9.9vw;
+    bottom: 2.4vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.songInfo img {
+    position: relative;
+    top: 27px;
+    margin-right: 10px;
+    width: 65px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
